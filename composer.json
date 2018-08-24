@@ -1,0 +1,31 @@
+{
+  "name": "psrly/huggables",
+  "description": "PSR-8 compliant implementation of Huggable Interfaces",
+  "type": "library",
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "pds/skeleton": "^1",
+    "phpunit/phpunit": "^7"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Biberich",
+      "email": "michael@biberich.at"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Psr\\Hug\\": "src/Psr",
+      "Psrly\\Huggables\\": "src/Psrly"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Psrly\\Huggables\\Tests\\": "tests/"
+    }
+  }
+}
