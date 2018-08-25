@@ -47,7 +47,7 @@ $satisfiable->hug($silent);
 $satisfiable->hug($silent);
 
 // hugged 3 times = satisfied
-$satisfiable->isSatisfied(); // false
+$satisfiable->isSatisfied(); // true
 ```
 
 ### Creating your own Hugger implementation
